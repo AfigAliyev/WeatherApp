@@ -10,4 +10,9 @@
         android:name="com.maximillianleonov.weatherapp.ui.main.MainFragment"
         tools:layout="@layout/fragment_main" />
 
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.maximillianleonov.weatherapp.ui.permission.PermissionFragment"
+        tools:layout="@layout/fragment_permission" />
+
 </navigation>
