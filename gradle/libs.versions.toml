@@ -17,7 +17,6 @@ androidx-test-espresso = "3.5.0"
 junit = "4.13.2"
 
 dagger = "2.44.2"
-javax-inject = "1"
 
 [libraries]
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
@@ -39,14 +38,10 @@ junit = { module = "junit:junit", version.ref = "junit" }
 dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
 dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
 
-javax-inject = { module = "javax.inject:javax.inject", version.ref = "javax-inject" }
-
 [bundles]
 androidx-navigation = ["androidx-navigation-ui-ktx", "androidx-navigation-fragment-ktx"]
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
-android-library = { id = "com.android.library", version.ref = "android-gradle-plugin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
