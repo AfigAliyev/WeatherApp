@@ -53,6 +53,8 @@ dependencies {
     implementation(libs.dagger)
     kapt(libs.dagger.compiler)
 
+    implementation(libs.play.services.location)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.androidx.test.espresso.core)
