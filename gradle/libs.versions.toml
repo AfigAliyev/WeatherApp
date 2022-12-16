@@ -20,6 +20,7 @@ dagger = "2.44.2"
 rxjava = "3.1.5"
 rxkotlin = "3.0.1"
 rxandroid = "3.0.2"
+retrofit = "2.9.0"
 
 play-services-location = "21.0.1"
 
@@ -47,11 +48,16 @@ rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
 rxkotlin = { module = "io.reactivex.rxjava3:rxkotlin", version.ref = "rxkotlin" }
 rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxandroid" }
 
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+retrofit-adapter-rxjava3 = { module = "com.squareup.retrofit2:adapter-rxjava3", version.ref = "retrofit" }
+
 play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "play-services-location" }
 
 [bundles]
 androidx-navigation = ["androidx-navigation-ui-ktx", "androidx-navigation-fragment-ktx"]
 rx = ["rxjava", "rxkotlin", "rxandroid"]
+retrofit = ["retrofit", "retrofit-converter-gson", "retrofit-adapter-rxjava3"]
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
