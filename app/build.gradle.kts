@@ -65,6 +65,7 @@ dependencies {
     implementation(libs.bundles.androidx.navigation)
     implementation(libs.dagger)
     kapt(libs.dagger.compiler)
+    implementation(libs.bundles.rx)
 
     implementation(libs.play.services.location)
 
