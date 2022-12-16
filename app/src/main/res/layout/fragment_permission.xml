@@ -25,6 +25,7 @@
         android:textSize="16sp" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/grantAccessButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -32,6 +33,7 @@
         app:cornerRadius="24dp" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/settingsButton"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
